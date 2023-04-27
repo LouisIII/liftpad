@@ -1,0 +1,1029 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22DF65E529EE4F3B0040B343 /* lpadWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 22DF65C229EE4F3A0040B343 /* lpadWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		22DF65F729EE51730040B343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DFF47E29DE9A0F00B6CAE2 /* Assets.xcassets */; };
+		22DFF47B29DE9A0E00B6CAE2 /* lpadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF47A29DE9A0E00B6CAE2 /* lpadApp.swift */; };
+		22DFF47F29DE9A0F00B6CAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DFF47E29DE9A0F00B6CAE2 /* Assets.xcassets */; };
+		22DFF4A529DE9A3000B6CAE2 /* NewWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4A429DE9A3000B6CAE2 /* NewWorkoutView.swift */; };
+		22DFF4A729DE9A3F00B6CAE2 /* NewExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4A629DE9A3F00B6CAE2 /* NewExerciseView.swift */; };
+		22DFF4A929DE9A5900B6CAE2 /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4A829DE9A5900B6CAE2 /* WorkoutListView.swift */; };
+		22DFF4AB29DE9A7A00B6CAE2 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4AA29DE9A7A00B6CAE2 /* WorkoutView.swift */; };
+		22DFF4B029DE9E1300B6CAE2 /* lpadDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4AE29DE9E1300B6CAE2 /* lpadDataModel.xcdatamodeld */; };
+		22DFF4B229DEA25E00B6CAE2 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4B129DEA25E00B6CAE2 /* ApplicationData.swift */; };
+		22DFF4BA29DF731B00B6CAE2 /* WorkoutListBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4B929DF731B00B6CAE2 /* WorkoutListBlock.swift */; };
+		22DFF4C129E0B3D500B6CAE2 /* Workout+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4BD29E0B3D500B6CAE2 /* Workout+CoreDataClass.swift */; };
+		22DFF4C229E0B3D500B6CAE2 /* Workout+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4BE29E0B3D500B6CAE2 /* Workout+CoreDataProperties.swift */; };
+		22DFF4C329E0B3D500B6CAE2 /* Exercise+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4BF29E0B3D500B6CAE2 /* Exercise+CoreDataClass.swift */; };
+		22DFF4C429E0B3D500B6CAE2 /* Exercise+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4C029E0B3D500B6CAE2 /* Exercise+CoreDataProperties.swift */; };
+		22DFF4C629E0BB5200B6CAE2 /* ExerciseListBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4C529E0BB5200B6CAE2 /* ExerciseListBlock.swift */; };
+		22DFF4C829E0D52A00B6CAE2 /* ExerciseDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFF4C729E0D52A00B6CAE2 /* ExerciseDataView.swift */; };
+		22FFF57929E53E4300C992B2 /* WeightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFF57829E53E4300C992B2 /* WeightGraphView.swift */; };
+		22FFF57B29E5497E00C992B2 /* QuoteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FFF57A29E5497E00C992B2 /* QuoteManager.swift */; };
+		22FFF57D29E612A000C992B2 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22FFF57C29E612A000C992B2 /* README.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22DF65D229EE4F3B0040B343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DFF46F29DE9A0E00B6CAE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DF65C129EE4F3A0040B343;
+			remoteInfo = "lpadWatch Watch App";
+		};
+		22DF65DC29EE4F3B0040B343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DFF46F29DE9A0E00B6CAE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DF65C129EE4F3A0040B343;
+			remoteInfo = "lpadWatch Watch App";
+		};
+		22DF65E329EE4F3B0040B343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DFF46F29DE9A0E00B6CAE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DF65C129EE4F3A0040B343;
+			remoteInfo = "lpadWatch Watch App";
+		};
+		22DFF48829DE9A0F00B6CAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DFF46F29DE9A0E00B6CAE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DFF47629DE9A0E00B6CAE2;
+			remoteInfo = lpad;
+		};
+		22DFF49229DE9A0F00B6CAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DFF46F29DE9A0E00B6CAE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DFF47629DE9A0E00B6CAE2;
+			remoteInfo = lpad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22DF65E629EE4F3B0040B343 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				22DF65E529EE4F3B0040B343 /* lpadWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22DF65C229EE4F3A0040B343 /* lpadWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lpadWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DF65D129EE4F3B0040B343 /* lpadWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lpadWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DF65DB29EE4F3B0040B343 /* lpadWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lpadWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DFF47729DE9A0E00B6CAE2 /* lpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DFF47A29DE9A0E00B6CAE2 /* lpadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lpadApp.swift; sourceTree = "<group>"; };
+		22DFF47E29DE9A0F00B6CAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22DFF48729DE9A0F00B6CAE2 /* lpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DFF49129DE9A0F00B6CAE2 /* lpadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lpadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DFF4A429DE9A3000B6CAE2 /* NewWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkoutView.swift; sourceTree = "<group>"; };
+		22DFF4A629DE9A3F00B6CAE2 /* NewExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExerciseView.swift; sourceTree = "<group>"; };
+		22DFF4A829DE9A5900B6CAE2 /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		22DFF4AA29DE9A7A00B6CAE2 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		22DFF4AF29DE9E1300B6CAE2 /* lpadDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lpadDataModel.xcdatamodel; sourceTree = "<group>"; };
+		22DFF4B129DEA25E00B6CAE2 /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
+		22DFF4B929DF731B00B6CAE2 /* WorkoutListBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListBlock.swift; sourceTree = "<group>"; };
+		22DFF4BD29E0B3D500B6CAE2 /* Workout+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workout+CoreDataClass.swift"; sourceTree = "<group>"; };
+		22DFF4BE29E0B3D500B6CAE2 /* Workout+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Workout+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		22DFF4BF29E0B3D500B6CAE2 /* Exercise+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataClass.swift"; sourceTree = "<group>"; };
+		22DFF4C029E0B3D500B6CAE2 /* Exercise+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exercise+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		22DFF4C529E0BB5200B6CAE2 /* ExerciseListBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListBlock.swift; sourceTree = "<group>"; };
+		22DFF4C729E0D52A00B6CAE2 /* ExerciseDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDataView.swift; sourceTree = "<group>"; };
+		22FFF57829E53E4300C992B2 /* WeightGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightGraphView.swift; sourceTree = "<group>"; };
+		22FFF57A29E5497E00C992B2 /* QuoteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteManager.swift; sourceTree = "<group>"; };
+		22FFF57C29E612A000C992B2 /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22DF65BF29EE4F3A0040B343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DF65CE29EE4F3B0040B343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DF65D829EE4F3B0040B343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DFF47429DE9A0E00B6CAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DFF48429DE9A0F00B6CAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DFF48E29DE9A0F00B6CAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DFF46E29DE9A0E00B6CAE2 = {
+			isa = PBXGroup;
+			children = (
+				22DFF47929DE9A0E00B6CAE2 /* lpad */,
+				22DFF47829DE9A0E00B6CAE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22DFF47829DE9A0E00B6CAE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22DFF47729DE9A0E00B6CAE2 /* lpad.app */,
+				22DFF48729DE9A0F00B6CAE2 /* lpadTests.xctest */,
+				22DFF49129DE9A0F00B6CAE2 /* lpadUITests.xctest */,
+				22DF65C229EE4F3A0040B343 /* lpadWatch Watch App.app */,
+				22DF65D129EE4F3B0040B343 /* lpadWatch Watch AppTests.xctest */,
+				22DF65DB29EE4F3B0040B343 /* lpadWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22DFF47929DE9A0E00B6CAE2 /* lpad */ = {
+			isa = PBXGroup;
+			children = (
+				22DFF4B729DF6A1000B6CAE2 /* Application */,
+				22DFF4B629DF69F500B6CAE2 /* Models */,
+				22DFF4B429DF69E900B6CAE2 /* Main Views */,
+				22DFF4B529DF69EF00B6CAE2 /* Sheets */,
+				22DFF4B829DF730C00B6CAE2 /* Components */,
+				22DFF4B329DF69DF00B6CAE2 /* CoreData */,
+				22DFF47E29DE9A0F00B6CAE2 /* Assets.xcassets */,
+			);
+			path = lpad;
+			sourceTree = "<group>";
+		};
+		22DFF4B329DF69DF00B6CAE2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				22DFF4AE29DE9E1300B6CAE2 /* lpadDataModel.xcdatamodeld */,
+				22DFF4BD29E0B3D500B6CAE2 /* Workout+CoreDataClass.swift */,
+				22DFF4BE29E0B3D500B6CAE2 /* Workout+CoreDataProperties.swift */,
+				22DFF4BF29E0B3D500B6CAE2 /* Exercise+CoreDataClass.swift */,
+				22DFF4C029E0B3D500B6CAE2 /* Exercise+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		22DFF4B429DF69E900B6CAE2 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				22DFF4A829DE9A5900B6CAE2 /* WorkoutListView.swift */,
+				22DFF4AA29DE9A7A00B6CAE2 /* WorkoutView.swift */,
+				22DFF4C729E0D52A00B6CAE2 /* ExerciseDataView.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		22DFF4B529DF69EF00B6CAE2 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				22DFF4A429DE9A3000B6CAE2 /* NewWorkoutView.swift */,
+				22DFF4A629DE9A3F00B6CAE2 /* NewExerciseView.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		22DFF4B629DF69F500B6CAE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22DFF4B129DEA25E00B6CAE2 /* ApplicationData.swift */,
+				22FFF57A29E5497E00C992B2 /* QuoteManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22DFF4B729DF6A1000B6CAE2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				22DFF47A29DE9A0E00B6CAE2 /* lpadApp.swift */,
+				22FFF57C29E612A000C992B2 /* README.rtf */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		22DFF4B829DF730C00B6CAE2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				22DFF4B929DF731B00B6CAE2 /* WorkoutListBlock.swift */,
+				22DFF4C529E0BB5200B6CAE2 /* ExerciseListBlock.swift */,
+				22FFF57829E53E4300C992B2 /* WeightGraphView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22DF65C129EE4F3A0040B343 /* lpadWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DF65ED29EE4F3B0040B343 /* Build configuration list for PBXNativeTarget "lpadWatch Watch App" */;
+			buildPhases = (
+				22DF65BE29EE4F3A0040B343 /* Sources */,
+				22DF65BF29EE4F3A0040B343 /* Frameworks */,
+				22DF65C029EE4F3A0040B343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lpadWatch Watch App";
+			productName = "lpadWatch Watch App";
+			productReference = 22DF65C229EE4F3A0040B343 /* lpadWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22DF65D029EE4F3B0040B343 /* lpadWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DF65EE29EE4F3B0040B343 /* Build configuration list for PBXNativeTarget "lpadWatch Watch AppTests" */;
+			buildPhases = (
+				22DF65CD29EE4F3B0040B343 /* Sources */,
+				22DF65CE29EE4F3B0040B343 /* Frameworks */,
+				22DF65CF29EE4F3B0040B343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DF65D329EE4F3B0040B343 /* PBXTargetDependency */,
+			);
+			name = "lpadWatch Watch AppTests";
+			productName = "lpadWatch Watch AppTests";
+			productReference = 22DF65D129EE4F3B0040B343 /* lpadWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22DF65DA29EE4F3B0040B343 /* lpadWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DF65EF29EE4F3B0040B343 /* Build configuration list for PBXNativeTarget "lpadWatch Watch AppUITests" */;
+			buildPhases = (
+				22DF65D729EE4F3B0040B343 /* Sources */,
+				22DF65D829EE4F3B0040B343 /* Frameworks */,
+				22DF65D929EE4F3B0040B343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DF65DD29EE4F3B0040B343 /* PBXTargetDependency */,
+			);
+			name = "lpadWatch Watch AppUITests";
+			productName = "lpadWatch Watch AppUITests";
+			productReference = 22DF65DB29EE4F3B0040B343 /* lpadWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		22DFF47629DE9A0E00B6CAE2 /* lpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DFF49B29DE9A0F00B6CAE2 /* Build configuration list for PBXNativeTarget "lpad" */;
+			buildPhases = (
+				22DFF47329DE9A0E00B6CAE2 /* Sources */,
+				22DFF47429DE9A0E00B6CAE2 /* Frameworks */,
+				22DFF47529DE9A0E00B6CAE2 /* Resources */,
+				22DF65E629EE4F3B0040B343 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DF65E429EE4F3B0040B343 /* PBXTargetDependency */,
+			);
+			name = lpad;
+			productName = lpad;
+			productReference = 22DFF47729DE9A0E00B6CAE2 /* lpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22DFF48629DE9A0F00B6CAE2 /* lpadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DFF49E29DE9A0F00B6CAE2 /* Build configuration list for PBXNativeTarget "lpadTests" */;
+			buildPhases = (
+				22DFF48329DE9A0F00B6CAE2 /* Sources */,
+				22DFF48429DE9A0F00B6CAE2 /* Frameworks */,
+				22DFF48529DE9A0F00B6CAE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DFF48929DE9A0F00B6CAE2 /* PBXTargetDependency */,
+			);
+			name = lpadTests;
+			productName = lpadTests;
+			productReference = 22DFF48729DE9A0F00B6CAE2 /* lpadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22DFF49029DE9A0F00B6CAE2 /* lpadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DFF4A129DE9A0F00B6CAE2 /* Build configuration list for PBXNativeTarget "lpadUITests" */;
+			buildPhases = (
+				22DFF48D29DE9A0F00B6CAE2 /* Sources */,
+				22DFF48E29DE9A0F00B6CAE2 /* Frameworks */,
+				22DFF48F29DE9A0F00B6CAE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DFF49329DE9A0F00B6CAE2 /* PBXTargetDependency */,
+			);
+			name = lpadUITests;
+			productName = lpadUITests;
+			productReference = 22DFF49129DE9A0F00B6CAE2 /* lpadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22DFF46F29DE9A0E00B6CAE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					22DF65C129EE4F3A0040B343 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					22DF65D029EE4F3B0040B343 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 22DF65C129EE4F3A0040B343;
+					};
+					22DF65DA29EE4F3B0040B343 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 22DF65C129EE4F3A0040B343;
+					};
+					22DFF47629DE9A0E00B6CAE2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					22DFF48629DE9A0F00B6CAE2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 22DFF47629DE9A0E00B6CAE2;
+					};
+					22DFF49029DE9A0F00B6CAE2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 22DFF47629DE9A0E00B6CAE2;
+					};
+				};
+			};
+			buildConfigurationList = 22DFF47229DE9A0E00B6CAE2 /* Build configuration list for PBXProject "lpad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22DFF46E29DE9A0E00B6CAE2;
+			productRefGroup = 22DFF47829DE9A0E00B6CAE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22DFF47629DE9A0E00B6CAE2 /* lpad */,
+				22DFF48629DE9A0F00B6CAE2 /* lpadTests */,
+				22DFF49029DE9A0F00B6CAE2 /* lpadUITests */,
+				22DF65C129EE4F3A0040B343 /* lpadWatch Watch App */,
+				22DF65D029EE4F3B0040B343 /* lpadWatch Watch AppTests */,
+				22DF65DA29EE4F3B0040B343 /* lpadWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DF65C029EE4F3A0040B343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DF65F729EE51730040B343 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DF65CF29EE4F3B0040B343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DF65D929EE4F3B0040B343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DFF47529DE9A0E00B6CAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FFF57D29E612A000C992B2 /* README.rtf in Resources */,
+				22DFF47F29DE9A0F00B6CAE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DFF48529DE9A0F00B6CAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DFF48F29DE9A0F00B6CAE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22DF65BE29EE4F3A0040B343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DF65CD29EE4F3B0040B343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DF65D729EE4F3B0040B343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DFF47329DE9A0E00B6CAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FFF57929E53E4300C992B2 /* WeightGraphView.swift in Sources */,
+				22DFF4C829E0D52A00B6CAE2 /* ExerciseDataView.swift in Sources */,
+				22DFF4C329E0B3D500B6CAE2 /* Exercise+CoreDataClass.swift in Sources */,
+				22DFF4A529DE9A3000B6CAE2 /* NewWorkoutView.swift in Sources */,
+				22DFF4C629E0BB5200B6CAE2 /* ExerciseListBlock.swift in Sources */,
+				22DFF4A729DE9A3F00B6CAE2 /* NewExerciseView.swift in Sources */,
+				22FFF57B29E5497E00C992B2 /* QuoteManager.swift in Sources */,
+				22DFF4A929DE9A5900B6CAE2 /* WorkoutListView.swift in Sources */,
+				22DFF4BA29DF731B00B6CAE2 /* WorkoutListBlock.swift in Sources */,
+				22DFF4C429E0B3D500B6CAE2 /* Exercise+CoreDataProperties.swift in Sources */,
+				22DFF4C129E0B3D500B6CAE2 /* Workout+CoreDataClass.swift in Sources */,
+				22DFF4AB29DE9A7A00B6CAE2 /* WorkoutView.swift in Sources */,
+				22DFF4C229E0B3D500B6CAE2 /* Workout+CoreDataProperties.swift in Sources */,
+				22DFF4B029DE9E1300B6CAE2 /* lpadDataModel.xcdatamodeld in Sources */,
+				22DFF4B229DEA25E00B6CAE2 /* ApplicationData.swift in Sources */,
+				22DFF47B29DE9A0E00B6CAE2 /* lpadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DFF48329DE9A0F00B6CAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22DFF48D29DE9A0F00B6CAE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22DF65D329EE4F3B0040B343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DF65C129EE4F3A0040B343 /* lpadWatch Watch App */;
+			targetProxy = 22DF65D229EE4F3B0040B343 /* PBXContainerItemProxy */;
+		};
+		22DF65DD29EE4F3B0040B343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DF65C129EE4F3A0040B343 /* lpadWatch Watch App */;
+			targetProxy = 22DF65DC29EE4F3B0040B343 /* PBXContainerItemProxy */;
+		};
+		22DF65E429EE4F3B0040B343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DF65C129EE4F3A0040B343 /* lpadWatch Watch App */;
+			targetProxy = 22DF65E329EE4F3B0040B343 /* PBXContainerItemProxy */;
+		};
+		22DFF48929DE9A0F00B6CAE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DFF47629DE9A0E00B6CAE2 /* lpad */;
+			targetProxy = 22DFF48829DE9A0F00B6CAE2 /* PBXContainerItemProxy */;
+		};
+		22DFF49329DE9A0F00B6CAE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DFF47629DE9A0E00B6CAE2 /* lpad */;
+			targetProxy = 22DFF49229DE9A0F00B6CAE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22DF65E729EE4F3B0040B343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lpadWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = lpadWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.louisdev.lpad;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louisdev.lpad.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		22DF65E829EE4F3B0040B343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lpadWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = lpadWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.louisdev.lpad;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louisdev.lpad.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		22DF65E929EE4F3B0040B343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.louisdev.lpadWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lpadWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lpadWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		22DF65EA29EE4F3B0040B343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.louisdev.lpadWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lpadWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lpadWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		22DF65EB29EE4F3B0040B343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.louisdev.lpadWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "lpadWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		22DF65EC29EE4F3B0040B343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.louisdev.lpadWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "lpadWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		22DFF49929DE9A0F00B6CAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22DFF49A29DE9A0F00B6CAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22DFF49C29DE9A0F00B6CAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lpad/Preview Content\"";
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = liftpad;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louisdev.lpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22DFF49D29DE9A0F00B6CAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lpad/Preview Content\"";
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = liftpad;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louisdev.lpad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22DFF49F29DE9A0F00B6CAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louisdev.lpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lpad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lpad";
+			};
+			name = Debug;
+		};
+		22DFF4A029DE9A0F00B6CAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louisdev.lpadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lpad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lpad";
+			};
+			name = Release;
+		};
+		22DFF4A229DE9A0F00B6CAE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louisdev.lpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lpad;
+			};
+			name = Debug;
+		};
+		22DFF4A329DE9A0F00B6CAE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XKQB2LCZ53;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.louisdev.lpadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lpad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22DF65ED29EE4F3B0040B343 /* Build configuration list for PBXNativeTarget "lpadWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DF65E729EE4F3B0040B343 /* Debug */,
+				22DF65E829EE4F3B0040B343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DF65EE29EE4F3B0040B343 /* Build configuration list for PBXNativeTarget "lpadWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DF65E929EE4F3B0040B343 /* Debug */,
+				22DF65EA29EE4F3B0040B343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DF65EF29EE4F3B0040B343 /* Build configuration list for PBXNativeTarget "lpadWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DF65EB29EE4F3B0040B343 /* Debug */,
+				22DF65EC29EE4F3B0040B343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DFF47229DE9A0E00B6CAE2 /* Build configuration list for PBXProject "lpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DFF49929DE9A0F00B6CAE2 /* Debug */,
+				22DFF49A29DE9A0F00B6CAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DFF49B29DE9A0F00B6CAE2 /* Build configuration list for PBXNativeTarget "lpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DFF49C29DE9A0F00B6CAE2 /* Debug */,
+				22DFF49D29DE9A0F00B6CAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DFF49E29DE9A0F00B6CAE2 /* Build configuration list for PBXNativeTarget "lpadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DFF49F29DE9A0F00B6CAE2 /* Debug */,
+				22DFF4A029DE9A0F00B6CAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DFF4A129DE9A0F00B6CAE2 /* Build configuration list for PBXNativeTarget "lpadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DFF4A229DE9A0F00B6CAE2 /* Debug */,
+				22DFF4A329DE9A0F00B6CAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22DFF4AE29DE9E1300B6CAE2 /* lpadDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22DFF4AF29DE9E1300B6CAE2 /* lpadDataModel.xcdatamodel */,
+			);
+			currentVersion = 22DFF4AF29DE9E1300B6CAE2 /* lpadDataModel.xcdatamodel */;
+			path = lpadDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22DFF46F29DE9A0E00B6CAE2 /* Project object */;
+}
